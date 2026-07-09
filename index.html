@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="plot-backdrop" aria-hidden="true">
+      <div class="plot-frame plot-one"></div>
+      <div class="plot-frame plot-two"></div>
+      <div class="plot-frame plot-three"></div>
+    </div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark">✦</span>
+        <span>Qiuyi Luo</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Astronomy · Star Formation</p>
+          <h1 id="hero-title">Hi, I'm <span>Qiuyi Luo</span>.</h1>
+          <p class="lede">
+            <h1>Welcome!</h1>
+            I  am currently a visiting researcher at Center for Astrophysics | Harvard & Smithsonian.
+            My work explores how stars form in the cold, dusty regions of molecular clouds in our Milky Way.
+            <p> I love anything that sparks my curiosity and creativity -- the universe comes first. I care deeply about music and art, and I enjoy simple forms of exercise </p>
+          <div class="hero-actions" aria-label="Profile actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Astronomy desk illustration">
+          <img src="assets/qiuyi_v2.png" alt="Soft astronomy-inspired workspace illustration">
+          <div class="avatar-card">
+            <div class="avatar-placeholder" aria-hidden="true">QY</div>
+            <div>
+              <strong>Visiting researcher </strong>
+              <span>Center for Astrophysics | Harvard & Smithsonian </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section split">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>I study how stars are born together.
+</h2>
+        </div>
+        <div class="prose">
+          <p>
+            My research interest is the formation of multiple stellar systems. I study how dense gas fragments during the earliest stage of star formation, and how these fragments grow into binaries, triples and higher order systems.
+            Using radio observations from interferometric such as ALMA, VLA, we look into embedded star-forming regions across the Milky Way, where young stars are still hidden within their natal gas and dust. 
+            
+            The formation of multiple systems is a story of growth across space and time.
+          </p>
+        </div>
+      </section>
+
+      <section id="research" class="section">
+        <div class="section-heading">
+          <p class="section-kicker">Research</p>
+          <h2>Things I am curious about</h2>
+        </div>
+        <div class="plot-strip" aria-label="Research plot placeholders">
+          <figure>
+            <img src="assets/environment1.jpg" alt="Research plot placeholder 1">
+            <figcaption>Where do multiple stellar systems form?</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/birthroad1.jpg" alt="Research plot placeholder 2">
+            <figcaption>What are they born from?</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/quadruple1.png" alt="Research plot placeholder 3">
+            <figcaption>How do they form and evolve?</figcaption>
+          </figure>
+        </div>
+        <div class="pill-grid" aria-label="Research interest placeholders">
+          <span>Star-forming environments</span>
+          <span>Protostellar core</span>
+          <span>Multiplicity</span>
+          <span>Core fragmentation</span>
+          <span>Disk fragmentation</span>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="section-kicker">Selected Work</p>
+          <h2>Projects</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="card-index">DIHCA survey</span>
+            <h3>The Formation of Low-mass Multiple Systems in High-mass Cluster-forming Regions</h3>
+            <p></p>
+            <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ae371f" aria-label="Project link">Link</a>
+          </article>
+          <article class="project-card">
+            <span class="card-index">ALMASOP survey</span>
+            <h3>A Forming Quadruple System with Continuum “Ribbons” and Intricate Outflows</h3>
+            <p></p>
+            <a href="https://iopscience.iop.org/article/10.3847/2041-8213/acdddf" aria-label="Project link">Link</a>
+          </article>
+          <article class="project-card">
+            <span class="card-index">ALMASOP survey</span>
+            <h3>How Do Dense Core Properties Affect the Multiplicity of Protostars?</h3>
+            <p></p>
+            <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ac66d9" aria-label="Project link">Link</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section timeline-section">
+        <div class="section-heading">
+          <p class="section-kicker">Now</p>
+          <h2>Current focus</h2>
+        </div>
+        <div class="timeline">
+          <div>
+            <time>2026</time>
+            <p>Conducting a statistical survey of multiplicity across diverse galactic environments. </p>
+          </div>
+          <div>
+            <time>FOCUS</time>
+            <p>Linking multi-band observations to the formation mechanisms that shape multiplicity across low- and high-mass star-forming environments.</p>
+          </div>
+          <div>
+            <time>DEVELOPING</time>
+            <p>Developing source-matching to connect young stars with their natal cores and assess chance alignment effects in dense environments.
+</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Let's connect</h2>
+          <p>^_^</p>
+        </div>
+        <div class="contact-links">
+          <a href="qiuyi.luo@cfa.harvard.edu">Email</a>
+          <a href="https://github.com/qiuyi-luo">GitHub</a>
+          <a href="https://orcid.org/0000-0003-4506-3171">ORCID</a>
+          <a href="#">CV</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="year">2026</span> Qiuyi Luo</span>
+      <span>Fate shines as brightly as the stars</span>
+    </footer>
+  </body>
+</html>
